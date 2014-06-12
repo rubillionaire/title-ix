@@ -1,0 +1,42 @@
+p, li{
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
+	font-size:16px;
+	line-height:22px;
+}
+
+li{
+	padding-left:1em;
+	text-indent:-1em
+}
+
+ul{
+	padding-left:1em;
+}
+
+nav li{
+	padding-left:0em
+}
+
+
+p strong{
+	font-family: 'Gotham SSm A', 'Gotham SSm B'; font-weight: 700; font-style: normal;
+}
+
+h2, h3{
+	font-family: 'Mercury Text G1 A', 'Mercury Text G1 B'; font-weight: 400; font-style: normal;
+}
+
+h2{
+	font-size:32px;
+}
+
+h3{
+	font-size: 24px;
+	margin-bottom:0em;
+}
+
+*{
+	text-rendering:optimizeLegibility;
+}

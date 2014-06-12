@@ -1,0 +1,67 @@
+$middle-grey:rgb(100,100,100);
+$white: rgb(255,255,255);
+$dark-gray:rgb(110,110,110);
+$blue:rgb(0, 174, 239);
+$purple:rgb(43,32,66);
+$black:rgb(40,40,40);
+
+body{
+	background:rgb(245,245,245);
+	// background:$purple;
+}
+
+p, li{
+	color:$black;
+}
+
+h2, h3{
+	color:$blue;
+}
+
+li a:link,li a:visited{
+	text-decoration:none;
+	color:$blue;
+	display:block;
+	padding:0.25em;
+	border-bottom:1px solid rgb(220,220,220);
+	
+}
+
+li:last-child a{
+	border-bottom:none;
+}
+
+li a:hover{
+	background:$white;
+}
+
+li a:active{
+	background:black;
+}
+
+// Large
+@media only screen and (min-width:960px) {
+	nav{
+		position:fixed;
+		margin-top:8em;
+	}
+}
+
+// TABLET Portrait
+
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+ 	nav{
+ 		position:fixed;
+ 		margin-top:8em;
+ 	}
+
+ }
+
+ // #Mobile (Portrait)
+
+
+  /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+
+    }
