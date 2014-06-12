@@ -8,3 +8,4 @@ exclude: ['scss',
           '*.command',
           'README.md',
           'assets/style/scss/*']
+baseurl: '/title-ix'

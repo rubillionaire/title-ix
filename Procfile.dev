@@ -1,4 +1,4 @@
-web: jekyll serve --watch --port $PORT
+web: jekyll serve --watch --port $PORT --baseurl ''
 js-lib: npm run watch-js-lib
 js-src: npm run watch-js-src
 js-site: npm run watch-js
